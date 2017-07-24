@@ -116,3 +116,14 @@ The output will be: "the murderer is  rick". When we call outerFunction nothing 
 ### Episode 7 - Make up your own episode/s!
 
 Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
+```js
+var carList = ["Mercedes", "Bmw", "Audi"];
+function printCars(array) {
+  carList = ["car is,"];
+  for (var i = 0; i < array.length; i++) {
+    console.log("Car brand number " + i + " is " + array[i]);
+    console.log("Next " + carList);
+  }
+}
+printCars(carList);
+```
